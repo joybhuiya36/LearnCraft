@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 5% 10%;
+            background-color: #d6feddd7;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .verify {
+            background-color: #27ad61;
+            width: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 40px;
+            color: #e7e7e7;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.25s color;
+        }
+
+        .verify:hover {
+            color: #158c49;
+        }
+    </style>
+</head>
+
+<body>
+    <span>Dear <%= name %>,</span>
+    <span>Thank you for registering with us!</span>
+    <span>To complete your registration, please click the verification button below:</span>
+    <a href="<%= verificationURL %>" class="verify">Verify Email</a>
+    <br />
+    If the button does not work, please paste the URL below into your browser:
+    <a href="<%= verificationURL %>"><%= verificationURL %></a>
+</body>
+</html>

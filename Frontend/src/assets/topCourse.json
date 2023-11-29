@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "title": "Introduction to Programming",
+        "desc": "Learn the basics of programming and algorithmic thinking.",
+        "thumbnail": "https://dotnettrickscloud.blob.core.windows.net/article/3720230518234845.webp",
+        "rating": 4.8,
+        "level": "Beginner"
+    },
+    {
+        "id": 2,
+        "title": "React for Beginners",
+        "desc": "Explore the essentials of web development, JavaScript, React.",
+        "thumbnail": "https://joy-mern.s3.eu-west-3.amazonaws.com/thumbnail/1699941184335reactcourse.png",
+        "rating": 4.5,
+        "level": "Intermediate"
+    },
+    {
+        "id": 3,
+        "title": "Machine Learning Mastery",
+        "desc": "Dive into the world of machine learning and artificial intelligence.",
+        "thumbnail": "https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/04/Introduction-To-Machine-Learning-1.jpg",
+        "rating": 4.9,
+        "level": "Advanced"
+    },
+    {
+        "id": 4,
+        "title": "Basic Data Science",
+        "desc": "Dive into the world of machine learning and artificial intelligence.",
+        "thumbnail": "https://cdn.educba.com/academy/wp-content/uploads/2019/03/Introduction-To-Data-Science.jpg",
+        "rating": 4,
+        "level": "Advanced"
+    }
+]
